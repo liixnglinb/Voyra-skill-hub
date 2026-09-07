@@ -1,0 +1,16 @@
+﻿{
+    "version":  "1.0.0",
+    "name":  "voyra-skill-hub",
+    "license":  "MIT",
+    "description":  "Skill 鐑 路 GitHub 浼樿川 Skill 涓庢瘡鍛ㄧ儹鐐癸紝鏄熸暟鎺掕姣忓ぉ鑷姩鍒锋柊锛圴oyra 妯″潡锛墊 AI skill leaderboard",
+    "keywords":  [
+                     "skill",
+                     "skills",
+                     "leaderboard",
+                     "ai",
+                     "github",
+                     "react",
+                     "Skill 鐑"
+                 ],
+    "private":  true
+}
