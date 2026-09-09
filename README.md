@@ -4,7 +4,7 @@
 
 **GitHub 优质 AI Skill 每周热点与星数排行，每日自动刷新 ｜ Trending AI skills on GitHub, ranked by stars, refreshed daily**
 
-[![Sync to Voyra](https://github.com/liixnglinb/voyra-skill-hub/actions/workflows/sync-to-voyra.yml/badge.svg)](https://github.com/liixnglinb/voyra-skill-hub/actions/workflows/sync-to-voyra.yml)
+[![Sync to Voyra](https://github.com/liixnglinb/Voyra-skill-hub/actions/workflows/sync-to-voyra.yml/badge.svg)](https://github.com/liixnglinb/Voyra-skill-hub/actions/workflows/sync-to-voyra.yml)
 ![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-5-646CFF?logo=vite&logoColor=white)
 ![GitHub API](https://img.shields.io/badge/GitHub-Search_API-181717?logo=github&logoColor=white)
@@ -66,7 +66,7 @@ src/
 
 ```mermaid
 flowchart LR
-  A["本仓库<br/>voyra-skill-hub"] -->|git push| B["GitHub Actions"]
+  A["本仓库<br/>Voyra-skill-hub"] -->|git push| B["GitHub Actions"]
   B -->|同步 SkillHub.jsx| C["Voyra 主仓库"]
   C -->|自动构建| D["Cloudflare Pages"]
   D --> E["lxlrwxs.top/#/skills"]
