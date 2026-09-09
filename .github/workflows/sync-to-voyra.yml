@@ -1,4 +1,4 @@
-﻿name: Sync to Voyra
+name: Sync to Voyra
 
 # 本仓库 push 后，把 Skill 热榜 代码自动同步进 Voyra 主仓库并触发部署
 on:
@@ -10,7 +10,7 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout voyra-skill-hub
+      - name: Checkout Voyra-skill-hub
         uses: actions/checkout@v4
 
       - name: Checkout Voyra main repo
@@ -27,13 +27,13 @@ jobs:
       - name: Commit & push to Voyra
         run: |
           cd voyra
-          git config user.name "voyra-skill-hub-sync[bot]"
+          git config user.name "Voyra-skill-hub-sync[bot]"
           git config user.email "liixnglinb@users.noreply.github.com"
           git add src/pages/SkillHub.jsx
           if git diff --cached --quiet; then
             echo "无代码变更，跳过提交"
             exit 0
           fi
-          git commit -m "chore(voyra-skill-hub): 自动同步自 voyra-skill-hub ($(date -u +%Y-%m-%dT%H:%MZ))"
+          git commit -m "chore(Voyra-skill-hub): 自动同步自 Voyra-skill-hub ($(date -u +%Y-%m-%dT%H:%MZ))"
           git push
 
